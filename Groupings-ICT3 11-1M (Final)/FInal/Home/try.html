@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .show {
+      text-align: center;
+      font-size: 17px;
+      font-family: "QueenInLineGrunge", sans-serif;
+      border-style: solid;
+      color: blanchedalmond;
+      background-color: #1d1c1c;
+    }
+    .hid {
+      text-align: center;
+      font-size: 20px;
+      font-family: "QueenInLineGrunge", sans-serif;
+      font-weight: 400;
+      color: wheat;
+      border: 2px;
+      border-style: solid;
+      background-color: rgb(19, 19, 19);
+      border-color: wheat;
+      display: none;
+    }
+    .show:hover + .hid {
+      display: block;
+    }
+    .hid {
+      text-align: center;
+      font-size: 20px;
+      font-family: "QueenInLineGrunge", sans-serif;
+      font-weight: 400;
+      color: wheat;
+      border: 2px;
+      border-style: solid;
+      background-color: rgb(19, 19, 19);
+      border-color: wheat;
+      display: none;
+    }
+    .column {
+      margin-top: 40px;
+      float: left;
+      width: 25%;
+    }
+  </style>
+  <body>
+    <div class="container1">
+      <h1>The Members</h1>
+      <div class="column">
+        <img src="../Resources/Freddie%20Mercury%201.jpg" alt="The GOAT" />
+        <h3 class="btn1">Freddie Mercury</h3>
+      </div>
+
+      <div class="column">
+        <img src="../Resources/Brian%20May%201.jpg" alt="The GOAT2" />
+        <h3 class="show">Brian May (guitarist)</h3>
+
+        <p class="hid">THIS IS NOT REAL</p>
+      </div>
+      <div class="column">
+        <img src="../Resources/John%20Deacon%201.jpg" alt="The GOAT3" />
+        <h3 class="show">John Deacon (Bassist)</h3>
+        <p class="hid">THIS IS NOT REAL</p>
+      </div>
+      <div class="column">
+        <img src="../Resources/young%20roger%201.jpg" alt="The GOAT4" />
+        <h3 class="btn1">Roger Taylor (Drummer)</h3>
+        <h4 class="show">More</h4>
+        <p class="hid">THIS IS N</p>
+      </div>
+    </div>
+  </body>
+</html>
